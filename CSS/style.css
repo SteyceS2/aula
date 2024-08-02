@@ -1,0 +1,70 @@
+/*Reset de estilo básico */
+
+* {
+    padding-left: 11;
+    margin: 0:
+    padding: 0:
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(227, 16, 136);
+    color:#000000;
+    padding-top: 50px;
+}
+    header{
+        background: rgb(185, 18, 118);
+        color:#000000;
+        padding-top: 10px 0; 
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+     nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+     }
+
+     nav ul li {
+        margin: 0 15 px;
+     }
+
+     nav ul li a {
+        color:#cf4ba7;
+        text-decoration: none;
+        padding: Spx 10px;
+     }
+
+     nav ul li a:hover {
+        background: #b71172;
+        border-radius: 5px;
+     }
+
+     /*Estilo das seções principais */
+
+     main{
+        padding: 20px;
+        margin-top: 50px;
+        /*Espaço para menu fixo*/
+     }
+     section {
+        padding: 20px;
+        margin-bottom: 20px ;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     }
+
+     footer{
+        text-align:center ;
+        padding: 10px;
+        background: #cf1b60;
+        color: #fff;
+        margin-top: 20px;
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+     }
